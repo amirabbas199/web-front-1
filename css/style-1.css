@@ -8,7 +8,8 @@
 header{
     width: 100%;
     height: 50px ;
-    background-color: #00f2ff;
+    background: linear-gradient(90deg, rgba(21,245,253,1) 0%, rgba(3,108,218,1) 100%);
+
     display: flex;
     align-content: center;
     justify-content: center;
@@ -73,7 +74,7 @@ header{
 
 }
 .btn_icon{
-    background-color: #00f2ff ;
+    background-color:  rgba(21,245,253,1) ;
     border: none;
 }
 .btn_icon:hover{

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    @media screen and (min-width: 800px ) {
+        body{
+            background: linear-gradient(90deg, rgba(21,245,253,1) 0%, rgba(3,108,218,1) 100%);
+
+            font-family: sans-serif;
+        }
+        .div_wel{
+            text-align: center;
+        
+        }
+        .div_form{
+            display: flex;
+            justify-content: center;
+        }
+        .form{
+            padding: 15px;
+            margin-top: 100px;
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+            background-color: white;
+            align-items: center;
+            border-radius: 15px;
+
+        }
+        input[type=text]{
+            width: 85%;
+            margin: 50px 0px 20px 0px ;
+            justify-content: center;
+            border: none;
+            background-color: white;
+            border-bottom: 2px solid black;
+            
+        }
+        input[type=text]:focus{
+            border: none;
+        }
+
+        input[type=password]{
+            width: 85%;
+            margin: 20px 0px;
+
+            justify-content: center;
+            border: none;
+            background-color: white;
+            border-bottom: 2px solid black;
+        }
+        input[type=email]{
+            width: 85%;
+            margin: 20px 0px;
+
+            justify-content: center;
+            border: none;
+            background-color: white;
+            border-bottom: 2px solid black;
+        }
+        a.a_form{
+            text-decoration: none;
+            background-color: white;
+            color: black;
+        }
+        .btn_form{
+            margin-top: 30px ;
+            border: none;
+            border-radius: 10px;
+            width: 70%;
+            height: 30px;
+            color: white;
+            background-color:rgb(36, 36, 187) ;
+    
+        }
+        
+    }
+    @media screen and (max-width:800px) {
+        body{
+            background: linear-gradient(90deg, rgba(21,245,253,1) 0%, rgba(3,108,218,1) 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: sans-serif;
+            justify-content: flex-start;
+        }
+        .div_wel{
+            display: flex;
+            width: 100%;
+            font-family: sans-serif;
+            justify-content: center;
+        }
+        .div_form{
+            display: flex;
+            justify-content: center;
+            background-color: white;
+            width: 90%;
+            border-radius: 10px;
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 90%;
+            
+        }
+        .form>input{
+            margin: 10px;
+        }
+        a.a_form{
+            text-decoration: none;
+            margin-top: 10px;
+            color:black;
+        }
+        .form>input[type=text]{
+            border: none;
+            border-bottom: 2px solid black;
+            margin-top: 30px;
+            width: 80%;
+        }
+        
+        .form>input[type=email]{
+            border: none;
+            border-bottom: 2px solid black;
+            width: 80%;
+
+        }
+        
+        .form>input[type=password]{
+            border: none;
+            border-bottom: 2px solid black;
+            width: 80%;
+
+        }
+        .form>input[type=submit]{
+            border: none;
+            background-color:rgb(36, 36, 187) ;
+            color: white;
+            border-radius: 5px;
+            width: 50%;
+            height: 30px;
+            margin-top: 20px;
+        }
+        .a_creat{
+            margin-bottom: 20px;
+        }
+    }
+
+    </style>
+    <title></title>
+</head>
+<body>
+    <div class="div_wel">
+        <p style="font-size: 20px;">welcome</p>
+    </div>
+
+
+    <div class="div_form">
+        <form class="form" action="#">
+            <a class="a_form" href="#"><span style="color: rgb(36, 36, 187); background-color: white; font-weight: 900;"> Login </span>Your Account</a>
+            <input placeholder="Username" type="text">
+            <input placeholder="Email" type="email">
+            <input placeholder="Password" type="password">
+            <input class="btn_form" type="submit" value="Login ">
+            <a href="#" style="text-decoration: none; color: gray; margin-top: 20px;">Forgot password</a>
+            <a href="#" style="text-decoration: none;  margin-top: 10px;" class="a_creat">Creat Account</a>
+        </form>
+
+    </div>
+    
+</body>
+</html>
