@@ -80,3 +80,38 @@ header{
 .btn_icon:hover{
     cursor: pointer;
 }
+
+.scroll_menu{
+    margin-top: 10px;
+    background-color: rgb(245, 245, 245);
+}
+.article_pro{
+    display: flex;
+    overflow-x: scroll;
+    direction: rtl;
+}
+
+
+.article_pro>div{
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.article_pro>div>div{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.article_pro>div>div>p{
+    font-size: 20px;
+}
+.scroll_menu>h3{
+    margin: 30px 30px 0px 0px ;
+
+}
